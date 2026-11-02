@@ -1,5 +1,29 @@
 const newsData = [
   {
+    id: 4,
+    date: "10 กรกฎาคม 2569",
+    dateEn: "July 10, 2026",
+    titleTh: "หัวข้อข่าวภาษาไทย",
+    titleEn: "News Title in English",
+    image: "images/news/news-00004.jpg", // พาธรูปภาพข่าว
+    excerptTh: "เกริ่นนำข่าวสั้นๆ สำหรับแสดงในหน้าข่าวทั้งหมด...",
+    excerptEn: "Short summary of the news for the main listing page...",
+    link: "news-detail.html?id=4", // เช็คว่า id ตรงกับด้านบน
+    contentTh: `
+      <p>เนื้อหาข่าวแบบเต็มภาษาไทยย่อหน้าที่ 1...</p>
+      <p>เนื้อหาข่าวแบบเต็มย่อหน้าที่ 2...</p>
+      <h3>หัวข้อย่อย (ถ้ามี)</h3>
+      <p>รายละเอียดเพิ่มเติม...</p>
+    `,
+    contentEn: `
+      <p>Full news content in English paragraph 1...</p>
+      <p>Full news content in English paragraph 2...</p>
+      <h3>Subheading (if any)</h3>
+      <p>Additional details...</p>
+    `
+  },
+  
+  {
     id: 3,
     date: "10 กรกฎาคม 2569",
     dateEn: "July 10, 2026",
