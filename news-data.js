@@ -49,18 +49,38 @@ const newsData = [
 
   {
     id: 2,
-    date: "22 มิถุนายน 2569",
-    dateEn: "June 22, 2026",
-    titleTh: "DUKEOME: The Clarias Genome Browser",
-    titleEn: "DUKEOME: The Clarias Genome Browser",
+    date: "25 พฤศจิกายน 2569",
+    dateEn: "November 25, 2026",
+    titleTh: "มหาวิทยาลัยเกษตรศาสตร์และเบทาโกร ร่วมกับ TICA ต้อนรับผู้บริหารจากไนจีเรีย ติดตามผลการฝึกอบรมการเพาะเลี้ยงปลาดุก",
+    titleEn: "Kasetsart University and Betagro, with Support from TICA, Welcome Nigerian CEO to Monitor Catfish Aquaculture Training",
     image: "images/news/news-00002.jpg",
-    excerptTh: "นักวิจัย ม.เกษตรศาสตร์ ผนึกกำลังไทย–จีน...",
-    excerptEn: "Thai–Chinese Research Collaboration Launches DUKEOME...",
+    excerptTh: "มหาวิทยาลัยเกษตรศาสตร์และบริษัท เบทาโกร จำกัด (มหาชน) ร่วมกับ TICA ต้อนรับผู้บริหารจาก Federal Cooperative College Oji River ประเทศไนจีเรีย ลงพื้นที่ติดตามและประเมินผลการฝึกอบรมการเพาะเลี้ยงปลาดุก ณ จังหวัดกาฬสินธุ์ ภายใต้โครงการ Thai–Nigeria Sustainable Agricultural Technology Learning Centre (SATLC)",
+    excerptEn: "Kasetsart University and Betagro Public Company Limited, with support from TICA, welcomed the CEO of Federal Cooperative College Oji River, Nigeria, for a monitoring and evaluation visit to assess the outcomes of catfish aquaculture training in Kalasin Province under the Thai–Nigeria Sustainable Agricultural Technology Learning Centre (SATLC) project.",
     link: "news-detail.html?id=2",
-    contentTh: `...`,
-    contentEn: `...`
-  },
-    
+    contentTh: `
+        <p><b>เสริมสร้างความร่วมมือทางวิชาการและการถ่ายทอดเทคโนโลยีการเกษตรระหว่างประเทศไทยและประเทศไนจีเรีย</b> เมื่อวันที่ 25 พฤศจิกายน 2569 มหาวิทยาลัยเกษตรศาสตร์ นำโดย <b>ศาสตราจารย์ ดร.ครศร ศรีกุลนาถ</b> และ <b>ดร.วรพงศ์ สิงห์ชาติ</b> ร่วมกับบริษัท <b>เบทาโกร จำกัด (มหาชน)</b> ให้การต้อนรับ <b>Dr. Jude Ejikeme Obidiegwu</b> ประธานเจ้าหน้าที่บริหาร (CEO) ของ <b>Federal Cooperative College Oji River (FCCO)</b> ประเทศไนจีเรีย ในโอกาสลงพื้นที่ติดตามและประเมินผลการฝึกอบรมด้านการเพาะเลี้ยงปลาดุก ณ ฟาร์มเพาะเลี้ยงปลาดุกของบริษัท เบทาโกร จำกัด (มหาชน) จังหวัดกาฬสินธุ์</p>
+        <p>กิจกรรมดังกล่าวได้รับการสนับสนุนจาก <b>กรมความร่วมมือระหว่างประเทศ (Thailand International Cooperation Agency: TICA)</b> กระทรวงการต่างประเทศ ภายใต้กรอบความร่วมมือด้านการพัฒนาศักยภาพบุคลากรและการถ่ายทอดเทคโนโลยีการเกษตรระหว่างประเทศไทยและประเทศไนจีเรีย</p>
+        <h3>ติดตามและประเมินผลการฝึกอบรมด้านการเพาะเลี้ยงปลาดุก</h3>
+        <p>การลงพื้นที่ครั้งนี้มีวัตถุประสงค์เพื่อติดตามความก้าวหน้าและประเมินผลการเรียนรู้ของผู้เข้ารับการฝึกอบรมจากประเทศไนจีเรีย จำนวน <b>3 ราย</b> ซึ่งเข้าร่วมหลักสูตรฝึกอบรมเชิงปฏิบัติการด้านการเพาะเลี้ยงปลาดุก โดยครอบคลุมองค์ความรู้และทักษะสำคัญ ได้แก่ การจัดการฟาร์ม การอนุบาลและการเลี้ยงปลาดุก การจัดการอาหาร คุณภาพน้ำ และสุขภาพสัตว์น้ำ</p>
+        <p>นอกจากนี้ ยังมีการแลกเปลี่ยนความคิดเห็นระหว่างผู้บริหาร นักวิจัย และผู้เกี่ยวข้องเกี่ยวกับแนวทางการนำองค์ความรู้ เทคโนโลยี และประสบการณ์จากการฝึกอบรมไปประยุกต์ใช้ให้เหมาะสมกับบริบทของประเทศไนจีเรีย เพื่อสนับสนุนการพัฒนาระบบการเพาะเลี้ยงสัตว์น้ำและเพิ่มประสิทธิภาพการผลิตในอนาคต</p>
+        <h3>Thai–Nigeria Sustainable Agricultural Technology Learning Centre (SATLC)</h3>
+        <p>การดำเนินงานครั้งนี้เป็นส่วนหนึ่งของโครงการ <b>Thai–Nigeria Sustainable Agricultural Technology Learning Centre (SATLC)</b> ซึ่งมุ่งส่งเสริมการพัฒนาศักยภาพบุคลากร การถ่ายทอดองค์ความรู้และเทคโนโลยีด้านการเกษตร ตลอดจนการพัฒนาฟาร์มต้นแบบและเครือข่ายความร่วมมือระหว่างสถาบันการศึกษา หน่วยงานภาครัฐ และภาคอุตสาหกรรม เพื่อสนับสนุนการพัฒนาภาคการเกษตรและการเพาะเลี้ยงสัตว์น้ำอย่างยั่งยืน</p>
+        <h3>ขับเคลื่อนความร่วมมือไทย–ไนจีเรียสู่การพัฒนาอย่างยั่งยืน</h3>
+        <p>ความร่วมมือระหว่าง <b>TICA มหาวิทยาลัยเกษตรศาสตร์ บริษัท เบทาโกร จำกัด (มหาชน) และ Federal Cooperative College Oji River (FCCO)</b> สะท้อนถึงการบูรณาการความเชี่ยวชาญทางวิชาการ ประสบการณ์จากภาคอุตสาหกรรม และความร่วมมือเพื่อการพัฒนาระหว่างประเทศ โดยมุ่งยกระดับศักยภาพทรัพยากรมนุษย์ ส่งเสริมการถ่ายทอดเทคโนโลยี และสร้างเครือข่ายความร่วมมือระยะยาวระหว่างประเทศไทยและประเทศไนจีเรีย เพื่อเพิ่มประสิทธิภาพการผลิตและสนับสนุนการพัฒนาอุตสาหกรรมเพาะเลี้ยงสัตว์น้ำอย่างยั่งยืน</p>
+    `,
+    contentEn: `
+        <p><b>Strengthening academic collaboration and agricultural technology transfer between Thailand and Nigeria.</b> On November 25, 2026, <b>Kasetsart University (KU)</b>, represented by <b>Professor Dr. Kornsorn Srikulnath</b> and <b>Dr. Worapong Singchat</b>, in collaboration with <b>Betagro Public Company Limited</b>, welcomed <b>Dr. Jude Ejikeme Obidiegwu</b>, Chief Executive Officer (CEO) of <b>Federal Cooperative College Oji River (FCCO)</b>, Nigeria. The visit took place at Betagro's catfish aquaculture farm in Kalasin Province, Thailand, to monitor and evaluate the outcomes of a practical catfish aquaculture training program.</p>
+        <p>The activity was supported by the <b>Thailand International Cooperation Agency (TICA)</b>, Ministry of Foreign Affairs of Thailand, under the bilateral cooperation framework for human resource capacity development and agricultural technology transfer between Thailand and Nigeria.</p>
+        <h3>Monitoring and Evaluation of Catfish Aquaculture Training</h3>
+        <p>The visit focused on assessing the progress and learning outcomes of <b>three Nigerian trainees</b> participating in a practical catfish aquaculture training program. The training covered essential knowledge and skills in farm management, fish nursing and rearing, feeding practices, water quality management, and aquatic animal health.</p>
+        <p>The visit also provided an opportunity for institutional representatives, researchers, and relevant stakeholders to exchange perspectives on how the knowledge, technologies, and practical experience gained through the training could be adapted and applied to the Nigerian context. These discussions aimed to support the development of aquaculture systems and improve production efficiency in Nigeria.</p>
+        <h3>Thai–Nigeria Sustainable Agricultural Technology Learning Centre (SATLC)</h3>
+        <p>This initiative forms part of the <b>Thai–Nigeria Sustainable Agricultural Technology Learning Centre (SATLC)</b> project, which aims to strengthen human resource capacity, facilitate agricultural knowledge and technology transfer, and promote the development of model farms. The project also seeks to establish collaborative networks among academic institutions, government agencies, and the private sector to support sustainable agricultural and aquaculture development.</p>
+        <h3>Advancing Thailand–Nigeria Cooperation for Sustainable Development</h3>
+        <p>The collaboration among <b>TICA, Kasetsart University, Betagro Public Company Limited, and Federal Cooperative College Oji River (FCCO)</b> demonstrates the integration of academic expertise, industry experience, and international development cooperation. Through capacity building, technology transfer, and the establishment of long-term partnerships, the initiative aims to enhance human resource capabilities, improve production efficiency, and contribute to the sustainable development of the aquaculture industry in Nigeria.</p>
+    `
+  }
+
   {
     id: 1,
     date: "22 มิถุนายน 2569",
