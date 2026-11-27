@@ -53,7 +53,7 @@ const newsData = [
     dateEn: "November 25, 2026",
     titleTh: "มหาวิทยาลัยเกษตรศาสตร์และเบทาโกร ร่วมกับ TICA ต้อนรับผู้บริหารจากไนจีเรีย ติดตามผลการฝึกอบรมการเพาะเลี้ยงปลาดุก",
     titleEn: "Kasetsart University and Betagro, with Support from TICA, Welcome Nigerian CEO to Monitor Catfish Aquaculture Training",
-    image: "images/news/news-00002.1.jpg, news-00002.2.jpg, news-00002.3.jpg",
+    image: "images/news/news-00002.1.jpg",
     excerptTh: "มหาวิทยาลัยเกษตรศาสตร์และบริษัท เบทาโกร จำกัด (มหาชน) ร่วมกับ TICA ต้อนรับผู้บริหารจาก Federal Cooperative College Oji River ประเทศไนจีเรีย ลงพื้นที่ติดตามและประเมินผลการฝึกอบรมการเพาะเลี้ยงปลาดุก ณ จังหวัดกาฬสินธุ์ ภายใต้โครงการ Thai–Nigeria Sustainable Agricultural Technology Learning Centre (SATLC)",
     excerptEn: "Kasetsart University and Betagro Public Company Limited, with support from TICA, welcomed the CEO of Federal Cooperative College Oji River, Nigeria, for a monitoring and evaluation visit to assess the outcomes of catfish aquaculture training in Kalasin Province under the Thai–Nigeria Sustainable Agricultural Technology Learning Centre (SATLC) project.",
     link: "news-detail.html?id=2",
