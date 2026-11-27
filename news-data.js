@@ -79,7 +79,7 @@ const newsData = [
         <h3>Advancing Thailand–Nigeria Cooperation for Sustainable Development</h3>
         <p>The collaboration among <b>TICA, Kasetsart University, Betagro Public Company Limited, and Federal Cooperative College Oji River (FCCO)</b> demonstrates the integration of academic expertise, industry experience, and international development cooperation. Through capacity building, technology transfer, and the establishment of long-term partnerships, the initiative aims to enhance human resource capabilities, improve production efficiency, and contribute to the sustainable development of the aquaculture industry in Nigeria.</p>
     `
-  }
+  },
 
   {
     id: 1,
