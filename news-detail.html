@@ -407,6 +407,7 @@
       </div>
 
       <div class="article-body" id="articleBody"></div>
+      <div class="news-gallery" id="articleGallery"></div>
 
       <div class="share-section">
         <span class="share-label" data-en="Share this article:" data-th="แชร์บทความนี้:">แชร์บทความนี้:</span>
@@ -495,6 +496,27 @@
       document.getElementById("articleBody").innerHTML = isEn 
         ? (currentNews.contentEn || currentNews.excerptEn)
         : (currentNews.contentTh || currentNews.excerptTh);
+      // Render News Image Gallery
+const galleryEl = document.getElementById("articleGallery");
+const galleryImages = Array.isArray(currentNews.gallery)
+  ? currentNews.gallery
+  : [];
+
+if (galleryEl) {
+  galleryEl.innerHTML = galleryImages.length > 0
+    ? galleryImages.map((img, index) => `
+        <div class="gallery-item">
+          <img
+            src="${img}"
+            alt="${titleText} - Image ${index + 1}"
+            loading="lazy"
+          >
+        </div>
+      `).join("")
+    : "";
+
+  galleryEl.style.display = galleryImages.length > 0 ? "grid" : "none";
+}
 
       document.title = `${titleText} | CATFISH BIORESOURCE`;
 
